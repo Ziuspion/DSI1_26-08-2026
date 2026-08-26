@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* Flexbox */
+/* justify-content */
+/* controla a distribuição dos itens no eixo principal */
+/* 
+flex-start: alinhar os itens no início do contêiner
+center: alinhar os itens no centro do contêiner
+flex-end: alinhar os itens no final do contêiner
+Space-between: distribuir os itens com espaço entre eles
+space-around: distribuir os itens com espaço ao redor deles
+space-evenly: distribuir os itens com espaço igual entre eles
+*/
+/* align-items */
+/* 
+flex-start: alinhar os itens no topo do contêiner
+center: centraliza verticalmente os itens no contêiner
+flex-end: alinhar os itens na parte inferior do contêiner
+stretch: esticar os itens para preencher o contêiner
+baseline: alinhar os itens com base na linha de base do texto
+*/
+
+/* flex-direction */
+/* controla a direção dos itens no contêiner */
+/* 
+row: os itens são dispostos em uma linha (da esquerda para a direita)
+row-reverse: os itens são dispostos em uma linha (da direita para a esquerda)
+column: os itens são dispostos em uma coluna (de cima para baixo)
+column-reverse: os itens são dispostos em uma coluna (de baixo para cima)
+*/
+.container{
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+}
+
+.box{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
